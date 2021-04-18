@@ -17,6 +17,7 @@ public static void main(String args[])
 	WebElement text = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 	text.sendKeys("Realme Mobile");
     driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
-System.out.println("New file send");
+     System.out.println("New file send 11");
+     System.out.println("New file send 22");
 }
 }
